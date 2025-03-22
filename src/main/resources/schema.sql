@@ -1,10 +1,3 @@
---создайте таблицу
---пользователи
--- идентификатор
---имя пользователя
---логин
---дата регистраций
-
 create table users
 (
     id         serial primary key,
@@ -12,7 +5,7 @@ create table users
     login      varchar not null,
     created_at timestamp
 
-)
+);
 
 create table posts(
     id serial primary key,

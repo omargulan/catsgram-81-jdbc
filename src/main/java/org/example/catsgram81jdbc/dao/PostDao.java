@@ -8,4 +8,5 @@ public interface PostDao {
     List<Post> findAll();
     Post findById(int id);
     Post create(Post post);
+    void deleteById(int id);
 }
